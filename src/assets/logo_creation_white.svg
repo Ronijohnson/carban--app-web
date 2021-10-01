@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>icon_64x64/logo_creation</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_64x64/logo_creation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M50.823,33.432 C50.448,32.891 49.552,32.891 49.177,33.432 C48.479,34.441 45,39.601 45,42 C45,44.757 47.243,47 50,47 C52.757,47 55,44.757 55,42 C55,39.601 51.521,34.441 50.823,33.432 Z" id="Path" stroke="#FFFFFF"></path>
+        <path d="M50,12 L14,12 C12.8954305,12 12,12.8954305 12,14 L12,22 C12,23.1045695 12.8954305,24 14,24 L50,24 C51.1045695,24 52,23.1045695 52,22 L52,14 C52,12.8954305 51.1045695,12 50,12 Z" id="Path" stroke="#FFFFFF" stroke-width="2"></path>
+        <polyline id="Path-2" stroke="#FFFFFF" stroke-width="2" points="8 18 8 30 32 30 32 36"></polyline>
+        <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" x="28" y="36" width="8" height="18"></rect>
+    </g>
+</svg>

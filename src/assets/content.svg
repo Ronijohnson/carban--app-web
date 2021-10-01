@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>icon_64x64/content</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_64x64/content" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-4" x="0" y="0" width="64" height="64"></rect>
+        <rect id="Rectangle" stroke="#B7BFDD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="18" y="12" width="36" height="42"></rect>
+        <path d="M10,28 L18,28 L18,54 L14,54 C11.790861,54 10,52.209139 10,50 L10,28 L10,28 Z" id="Rectangle" stroke="#B7BFDD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <rect id="Rectangle" stroke="#B7BFDD" stroke-linecap="round" stroke-linejoin="round" x="24" y="18" width="9" height="10"></rect>
+        <path d="M39,18 L48,18" id="Path-16-Copy-2" stroke="#B7BFDD" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M39,23 L48,23" id="Path-16-Copy-3" stroke="#B7BFDD" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M39,28 L48,28" id="Path-16-Copy-4" stroke="#B7BFDD" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M39,33 L48,33" id="Path-16-Copy-5" stroke="#B7BFDD" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M24,33 L33,33" id="Path-16-Copy-8" stroke="#B7BFDD" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M39,38 L48,38" id="Path-16-Copy-6" stroke="#B7BFDD" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M24,38 L33,38" id="Path-16-Copy-9" stroke="#B7BFDD" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M39,43 L48,43" id="Path-16-Copy-7" stroke="#B7BFDD" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M24,43 L33,43" id="Path-16-Copy-10" stroke="#B7BFDD" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M39,48 L48,48" id="Path-16-Copy-7" stroke="#B7BFDD" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M24,48 L33,48" id="Path-16-Copy-10" stroke="#B7BFDD" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+</svg>

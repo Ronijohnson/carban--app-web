@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>icon_64x64/referral</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_64x64/referral" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-4" x="0" y="0" width="64" height="64"></rect>
+        <path d="M43,12 C51.2842712,12 58,17.372583 58,24 C58,30.627417 51.2842712,36 43,36 C42.6039108,36 42.2114074,35.9877182 41.8230522,35.9636048 C40.6642192,40.4058932 32.7447013,43.2326485 35.1837379,40.6750499 C36.4697868,39.326486 36.800261,37.3311767 36.1751606,34.6891221 C31.3213538,32.700894 28,28.6607445 28,24 C28,17.372583 34.7157288,12 43,12 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M18,30 C23.5228475,30 28,33.581722 28,38 C28,40.6718641 26.3627141,43.0378012 23.8470038,44.4907222 C23.8709673,46.5394158 24.482977,47.9743623 25.6822807,48.7958722 C28.1610211,50.493782 20.8982774,49.526621 19.3474205,45.9275673 C18.907082,45.9754624 18.4571229,46 18,46 C12.4771525,46 8,42.418278 8,38 C8,33.581722 12.4771525,30 18,30 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+</svg>

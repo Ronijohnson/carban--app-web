@@ -1,0 +1,308 @@
+p{
+    background-color: lightblue;
+    font-size: 20px;
+    height: 500px;
+    display: none;
+}
+.second-component{
+    background-color: rgb(224, 224, 224);
+    height: 500px;
+}
+.flex-direction-col {
+    flex-direction: column;
+  }
+  .flex-direction-col-row {
+    flex-direction: column;
+  }
+  .flex-direction-row-col {
+    flex-direction: row;
+  }
+  .flex-view {
+    display: flex;
+  }
+  .flex-direction-row {
+    flex-direction: row;
+  }
+  .justify-content-c {
+    justify-content: center;
+  }
+  .justify-content-b {
+    justify-content: space-between;
+  }
+  .justify-content-a {
+    justify-content: space-around;
+  }
+  .container{
+    width: 100%;
+    height: 704px;
+    background-color: rgb(245, 247, 251);
+    margin-top: 18px;
+  }
+  .burner-img{
+       /* width: 1233px; */
+       text-align: center;
+       position: relative;
+       /* padding-top: 44px; */
+       border-radius: 7px;
+       border-radius: 7px;
+       right: -8%;
+       height: 290px;
+       width: 1099px;
+       width: 85%;
+  }
+  .dialer{
+    font-size: 19px;
+    width: 293px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .Phone-burner{
+    font-size: 14px;
+    width: 283px;
+    color: white;
+    margin: 0px auto;
+  }
+  .second-container{
+    position: absolute;
+    padding-top: 46px;
+    right: 59%;
+  }
+  .lean-button{
+    width: 129px;
+    height: 34px;
+    border-radius: 3px;
+    background: transparent;
+    border: 1px solid white;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 3px 15px 0px #00b0c24d;
+    margin-top: 20px;
+  }
+  .lean-button:hover{
+      background-color: white !important;
+      color: #00B0C2 !important;
+  }
+  .appcarban-img{
+    width: 67px;
+    height: 75px;
+    margin-left: 4px;
+  }
+  .app-box{
+    border: 2px solid #8080802b;
+    height: 184px !important;
+    width: 187px !important;
+    background-color: #ffff;
+    border-radius: 4px;
+    /* margin-left: -2rem; */
+    margin-top: 20px;
+    margin-left: 7rem;
+  }.carban-text-font{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 38px;
+    margin-left: 9px;
+    margin-top: 9px;
+    font-weight: 600;
+  }
+  .hvr-grow-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: #17a2b8;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+  }
+  .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 3px 15px 0px #00b0c24d
+  }
+  .recommended-box{
+    border: 2px solid #8080802b;
+    border-radius: 4px;
+    margin-left: 22px;
+    margin-top: 18px;
+    height: 184px !important;
+    width: 187px !important;
+    background-color: #fff;
+  }
+  .recommended-svg{
+    width: 66px;
+    margin-top: 5px;
+  }
+  .recommended-text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 34px;
+    margin-left: 9px;
+    margin-top: 9px;
+    margin-top: 16px
+  }
+  .need-help-box{
+    border: 2px solid #8080802b;
+    height: 303px !important;
+    width: 353px !important;
+    border-radius: 4px;
+    margin-top: 30px;
+    position: relative;
+    background-color: #fff;
+    /* left: 15%; */
+    /* top: 14%; */
+    text-align: center;
+  }
+  .need-help-text{
+    width: 215px;
+    font-size: 24px;
+    margin-left: 30px;
+    font-family: 'Raleway';
+    text-align: left;
+  }
+  .work-flow-text{
+    font-size: 15px;
+    width: 304px;
+    margin-top: 0px;
+    margin-left: 50px;
+    color: #808080cc;
+    font-family: Raleway;
+    margin-left: 31px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: left;
+  }
+  .errow-button{
+        /* position: absolute; */
+        right: -48%;
+        width: 50px;
+        height: 50px;
+        top: -41%;
+        border-radius: 4px;
+        border: 1px solid #00bcd4;
+        background-color: #fff;
+  }
+  .errow {
+    font-size: 20px;
+    color: #00bcd4;
+  }
+  /* .need-help-box:hover .errow-button-color{
+      display: block;
+      transition: 1.3s;
+      color: white !important;
+  } */
+  /* .need-help-box:hover div:nth-child(3) .errow{
+    color: white !important;
+} */
+  .errow-button-color{
+    background-color: #00b0c2;
+    position: absolute;
+    top: 75%;
+    right: -8%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    display: none;
+    overflow: hidden;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .hvr-sweep-to-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .hvr-sweep-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #00B0C2;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    color: white ;
+  }
+  .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+    color: white;
+  }
+  .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    
+  }
+
+  @media only screen and (max-width: 768px) {
+  
+    .container{
+      width: 362%;
+      height: 704px;
+      background-color: rgb(245, 247, 251);
+      margin-top: 18px;
+  }
+  .second-container{
+    position: absolute;
+    padding-top: 46px;
+    right: -16%;
+}
+.flex-direction-col-row{
+  flex-direction: column;
+}
+.app-boxes{
+  display: flex;
+}
+
+    }
+
+
+

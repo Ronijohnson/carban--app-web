@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>icon_64x64/remarketing</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_64x64/remarketing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-4" x="0" y="0" width="64" height="64"></rect>
+        <path d="M23.141,37.5 L28.218,50.11 C29.0220307,52.121093 28.0487908,54.4037584 26.041,55.216 C24.028494,56.0237606 21.7419984,55.0492034 20.931,53.038 L14.625,37.5" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M25,19 L14,19 C9.02943725,19 5,23.0294373 5,28 L5,28 C5,32.9705627 9.02943725,37 14,37 L25,37 L41,44 L41,12 L25,19 Z" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M50,31 C50,27.6862915 47.3137085,25 44,25 C40.6862915,25 38,27.6862915 38,31 L50,31 Z" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(44.000000, 28.000000) rotate(-270.000000) translate(-44.000000, -28.000000) "></path>
+        <path d="M53.5,27.5 L58.5,27.5" id="Path" stroke="#FFFFFF" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M52.088,18.5 L55.553,16.5" id="Path" stroke="#FFFFFF" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M51.088,36.5 L54.553,38.5" id="Path" stroke="#FFFFFF" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+</svg>
