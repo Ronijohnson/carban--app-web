@@ -25,6 +25,7 @@ import datamanegement  from "./datamanegement"
 import marketing from "./marketing"
 import llinkdindemo from "./llinkdindemo"
 import integration from "./integration"
+
 import bottomside from "./bottomside"
 export default {
   name: "About",

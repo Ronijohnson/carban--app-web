@@ -55,17 +55,30 @@ p{
     width: 293px;
     margin-bottom: 20px;
     color: white;
+    margin-left: 41px;
   }
   .Phone-burner{
-    font-size: 14px;
-    width: 283px;
+    font-size: 15px;
+    /* width: 283px; */
     color: white;
     margin: 0px auto;
+    margin-left: 40px;
   }
   .second-container{
-    position: absolute;
     padding-top: 46px;
-    right: 59%;
+    /* right: 59%; */
+    width: 1065px;
+    margin: auto;
+    border-radius: 10px;
+    background-size: 1079px;
+    background-position-x: -9px;
+    background-repeat: no-repeat;
+    background-position-y: -2px;
+    height: 276px;
+    /* background-image: url(..assets/Phone.jpg); */
+    /* background-image: url(/img/feat_linkedin.e4061e8f.jpeg); */
+    background-image: url(../assets/Banner.png);
+
   }
   .lean-button{
     width: 129px;
@@ -77,6 +90,7 @@ p{
     color: white;
     box-shadow: 0 3px 15px 0px #00b0c24d;
     margin-top: 20px;
+    margin-left: 42px;
   }
   .lean-button:hover{
       background-color: white !important;
@@ -282,16 +296,16 @@ p{
     
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 767px) {
   
     .container{
-      width: 362%;
-      height: 704px;
-      background-color: rgb(245, 247, 251);
-      margin-top: 18px;
+        width: 362%;
+    height: 704px;
+    background-color: rgb(245, 247, 251);
+    margin-top: 18px;
   }
   .second-container{
-    position: absolute;
+    /* position: absolute; */
     padding-top: 46px;
     right: -16%;
 }

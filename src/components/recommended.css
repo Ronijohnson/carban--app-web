@@ -136,7 +136,7 @@
     color: white;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .recommended-svg[data-v-7226820a] {
     width: 239px;
     margin-left: 4rem;
@@ -196,14 +196,14 @@
 .monday-heading[data-v-7226820a] {
   font-size: 67px;
   margin-top: 0px;
-  margin-left: 17px;
+  margin-left: 59px;
   font-family: 'Raleway';
   font-weight: bolder;
 }
 .monday-content[data-v-7226820a] {
-  width: 643px;
+  width: 743px;
   font-size: 43px;
-  margin-left: 24px;
+  margin-left: 64px;
   margin-top: 12px;
   color: gray;
   font-style: normal;

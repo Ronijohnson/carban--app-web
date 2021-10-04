@@ -295,11 +295,3 @@
 }
 
 
-
-
-@media only screen and (max-width: 768px) {
-  .carbotext-svg {
-    width: 167px !important;
-    padding-left: 124px !important;
-}
-}

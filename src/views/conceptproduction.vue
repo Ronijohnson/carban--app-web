@@ -457,7 +457,7 @@ export default {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   
 
 .carbotext-svg {
@@ -509,6 +509,123 @@ export default {
     margin-top: 3px;
 }
 }
+@media only screen and (max-width: 1024px) {
+      
+.carbotext-svg{
+    width: 42px;
+    padding-left: 14px;
+}
+.app-text{
+    font-weight: bold;
+    margin-left: 16px;
+    font-size: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    width: 192px;
+}
+.hr{
+    height: 1px;
+    background-image: linear-gradient(to right, #b7bfdd, 75%, rgba(183, 191, 221, 0));
+    margin-top: 10px;
+    width: 408px;
+}
+.circule{
+    color: #B7BFDD !important;
+    font-size: 14px !important;
+    margin-left: 19px !important;
+}
+.our-team-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px !important;
+    line-height: 22px;
+    color: #9093A2;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    width: 730px;
+    margin-left: 1rem;
+    font-size: 12px;
+    font-family: 'Raleway';
+}
+.expo-container{
+
+     width: 332px;
+    height: 291px;
+    margin-left: 10px;
+    border-radius: 4px;
+    display: block !important;
+    /* background-color: gray; */
+    background-image: none !important;
+    border: 2px solid #9e9e9e5c !important;
+}
+
+.main-width{
+    width: 718px!important;
+}
+.explore-icon{
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 5px;
+    margin-left: 5%;
+    margin-top: 13px;
+    background-color: #9e9e9e99;
+}
+.ticket-booth-heading{
+    text-overflow: ellipsis;
+    font-size: 17px;
+    color: #fff;
+    margin-top: 11px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    width: 168px;
+    margin-left: 6%;
+    color: black;
+}
+.explore-content{
+    font-size: 15px;
+    margin-top: 9px;
+    line-height: 23px;
+    font-family: 'Raleway';
+    width: 60%;
+    margin-left: 6%;
+    color: gray;
+}
+.explore-button{
+  width: 127px !important;
+    height: 37px;
+    font-size: 21px;
+    color: #ffff;
+    border: none;
+    background-color: transparent;
+    text-align: right;
+    margin-left: 57%;
+    color: black;
+    margin-top: 9px;
+}
+.fair-phone-container{
+
+    margin-top: 0px;
+    margin-left: 22px;
+    height: 292px;
+    width: 310px;
+    border: 1px solid #9e9e9e99;
+    border-radius: 4px !important;
+}
+.fair-explore-button {
+    width: 110px;
+    font-size: 18px;
+    margin-top: 67px;
+    border: none;
+    background-color: transparent;
+}
+}
+
+
+
+
    
 
 

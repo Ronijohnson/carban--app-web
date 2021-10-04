@@ -190,7 +190,7 @@ export default {
 .hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
   box-shadow: 0px 25px 25px -15px #69caf7;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   
 
   .custom-broject-container {
@@ -231,7 +231,34 @@ export default {
     margin-top: 34px !important;
 }
   }
+  @media only screen and (max-width: 1024px) {
+    
 
+     .custom-broject-container {
+    width: 704px !important;
+    border: 2px solid #f6f2f2;
+    margin-left: 1rem !important;
+    margin-top: 30px !important;
+    height: 137px !important;
+    border-radius: 5px !important;
+}
+.custom-project-first-heading {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    margin-left: 2rem !important;
+    margin-bottom: 13px !important;
+    font-family: 'Raleway'!important;
+    margin-top: 44px !important;
+}
+.integration-text {
+    margin-left: 2rem !important;
+    margin-top: 0px !important;
+    font-size: 17px !important;
+    color: #8080809c !important;
+    font-family: 'Raleway' !important;
+}
+
+  }
 
 
 

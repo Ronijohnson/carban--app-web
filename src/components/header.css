@@ -1,4 +1,9 @@
 
+
+
+.responsive-menu{
+  display: none !important;
+}
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,100&display=swap');
 .flex-direction-col {
     flex-direction: column;
@@ -45,6 +50,9 @@
     width: 122px;
     
   }
+  /* .navbar-logo{
+    display: none;
+  } */
   .navbar-logo{
     display: none;
   }
@@ -581,7 +589,23 @@ position: relative;
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
+  
+  
+  .responsive-menu{
+    display: block;
+    display: block !important;
+    font-size: 66px;
+    position: absolute;
+    left: 241%;
+    top: 18%;
+    background-color: #9e9e9eab;
+    border-radius: 11px;
+    align-items: center;
+    width: 361px;
+    height: 419px;
+    display: none !important;
+  }
   .Nav-bar{
     display: none;
   }
@@ -630,3 +654,34 @@ position: relative;
     margin-top: 18px;
 } */
 }
+
+
+@media only screen and (max-width: 1024px) {
+ .navbar-logo{
+   display: none;
+ }
+ .demo-button{
+   display: none;
+ }
+ .suport-button{
+   display: none;
+ }
+ .Nav-bar{
+   display: none;
+ }
+ .hamburger{
+   display: block;
+ }
+ .hamburger[data-v-29e8c3c6] {
+  display: block;
+  margin-left: 41rem;
+  margin-top: 20px;
+  font-size: 26px;
+}
+  .nav-logo{
+    display: block;
+  }
+
+
+}
+

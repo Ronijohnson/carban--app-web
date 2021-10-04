@@ -478,7 +478,7 @@ export default {
   box-shadow: 0px 25px 25px -15px #8571ac;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   
 .carbotext-svg {
     width: 59px !important;
@@ -553,6 +553,110 @@ margin-left: 0px !important;
     margin-bottom: 13px;
     font-family: 'Raleway';
     margin-top: 44px;
+}
+
+}
+@media only screen and (max-width: 1024px) {
+  .carbotext-svg{
+    width: 42px;
+    padding-left: 15px;
+}
+.app-text{
+    font-weight: bold;
+    margin-left: 11px;
+    font-size: 21px;
+    font-family: "Raleway";
+    /* font-weight: bold; */
+    font-style: normal;
+    font-weight: 600;
+}
+.circule{
+    color: #b7bfdd !important;
+    font-size: 14px !important;
+    margin-left: 17px !important;
+}
+.our-team-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px !IMPORTANT;
+    line-height: 22px;
+    color: #9093a2;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    width: 717px;
+    margin-left: 1rem;
+    font-size: 12px;
+    font-family: "Raleway";
+}
+
+.expo-container {
+  width: 355px;
+    height: 323px;
+    margin-left: 18px;
+    border-radius: 4px;
+    display: block !important;
+    /* background-color: gray; */
+    background-image: none !important;
+    border: 2px solid #9e9e9e5c !important;
+}
+.explore-icon {
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 5px;
+    margin-left: 5%;
+    margin-top: 13px;
+    background-color: #9e9e9e4d;
+}
+.ticket-booth-heading{
+    text-overflow: ellipsis;
+    font-size: 17px;
+    color: #fff;
+    margin-top: 11px;
+    font-family: "Raleway";
+    font-weight: bold;
+    width: 168px;
+    margin-left: 6%;
+    color: black;
+}
+.explore-content {
+    font-size: 15px;
+    margin-top: 9px;
+    line-height: 28px;
+    font-family: "Raleway";
+    width: 64%;
+    margin-left: 7%;
+    color: gray;
+}
+.explore-button {
+    /* width: 165px; */
+    height: 37px;
+    font-size: 21px;
+    color: #ffff;
+    border: none;
+    background-color: transparent;
+    text-align: right;
+    margin-left: 58%;
+    margin-top: 56px;
+    color: black;
+}
+.main-width{
+    width: 718px !important;
+}
+.fair-phone-container{
+    margin-top: 0px;
+    margin-left: 18px !important;
+    height: 322px;
+    width: 345px;
+}
+.fair-explore-button {
+    width: 110px;
+    font-size: 18px;
+    margin-top: 11px;
+    border: none;
+    background-color: transparent;
+    margin-top: 101px;
 }
 
 }

@@ -1,7 +1,7 @@
 <template>
   <div class="flex-view flex-direction-col container">
     <div style="    margin-top: 20px;">
-      <img class="burner-img" src="../assets/phone.png" alt />
+      <!-- <img class="burner-img" src="../assets/phone.png" alt /> -->
     </div>
     <div class="flex-view flex-direction-col second-container">
       <div>
@@ -10,13 +10,13 @@
       <div>
         <h4
           class="Phone-burner"
-        >PhoneBurner power dials your leads to 4x your live conversations every dialing session</h4>
+        >PhoneBurner power dials your leads to <br> 4x your live conversations every dialing <br> session</h4>
       </div>
       <div>
         <button class="lean-button">Learn More</button>
       </div>
     </div>
-    <div class="flex-view flex-direction-row justify-content-b flex-direction-row-col" style="width: 1013px;;">
+    <div class="flex-view flex-direction-row justify-content-b" style="width: 1013px;;">
       <div>
         <div class="flex-view flex-direction-col app-box hvr-grow-shadow">
           <div>

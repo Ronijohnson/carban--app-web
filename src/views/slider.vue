@@ -166,7 +166,8 @@
 .expo-container{
      background-size: 1057px;
     background-repeat: no-repeat;
-    background-image: url(/img/feat_integ.fa7f778a.jpeg);
+    /* background-image: url(/img/feat_integ.fa7f778a.jpeg); */
+    background-image: url(/img/feat.fa7f778a.jpeg);
     width: 1057px;
     height: 399px;
     margin-left: 87px;
@@ -231,7 +232,7 @@
     justify-content: space-around;
   }
 
-   @media only screen and (max-width: 768px) {
+   @media only screen and (max-width: 767px) {
   
 
   .slider-responsive{
@@ -239,7 +240,42 @@
   }
     
 }
-   
+   @media only screen and (max-width: 1024px) {
+      
+      .expo-container{
+        background-size: 778px !important;
+    background-repeat: no-repeat;
+    /* background-image: url(/img/feat_integ.fa7f778a.jpeg); */
+    background-image: url(/img/feat.fa7f778a.jpeg);
+    width: 716px;
+    height: 399px;
+    margin-left: 87px;
+    border-radius: 4px;
+    MARGIN: 0px auto;
+    margin-top: 31px;
+      }
+      .explore-content[data-v-2f31520a] {
+    width: 202px;
+    font-size: 14px;
+    margin-top: 9px;
+    color: #fff;
+    line-height: 21px;
+    font-family: 'Raleway';
+}
+.team-row[data-v-2f31520a] {
+    border: 1px solid;
+    background-color: #f0f2f5;
+    margin: 0px auto;
+    width: 59%;
+    position: absolute;
+    right: 20%;
+    bottom: 48%;
+    height: 71px;
+    border-radius: 4px;
+    border: none;
+    align-items: center;
+}
+   }
 
 
 </style>

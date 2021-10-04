@@ -16,7 +16,7 @@
 
         </div>
         <div><p class="our-team-text">Our team developed these applications to fill the gaps of what current programs offer. These apps will help streamline your workflow and open up new possibilities for your team</p></div>
-        <div class="flex-view flex-direction-row justify-content-c app-responsoive-img">
+        <div class="flex-view flex-direction-row justify-content-c app-responsoive-img tab-responsive">
             <div><img class="ticket hvr-shadow" src="../assets/ticket.png" alt=""></div>
             <div class="flex-view flex-direction-col explore-contianer">
                 <div><img class="explore-icon" src="../assets/boothwhite.svg" alt=""></div>
@@ -66,7 +66,7 @@ export default {
    
 }
 </script>
-<style >
+<style scoped>
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,100&display=swap');
 .flex-direction-col {
@@ -369,7 +369,7 @@ export default {
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .carbotext-svg {
     width: 167px !important;
     padding-left: 124px !important;
@@ -517,4 +517,6 @@ export default {
     font-family: 'Raleway';
 }
 }
+
+  
   </style>

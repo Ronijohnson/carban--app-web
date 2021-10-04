@@ -4,8 +4,10 @@
       <router-link to="/home">
         <div class="flex-view flex-direction-row justify-content-b">
           <img class="nav-logo" src="../assets/logo.svg" alt />
+          <!-- <img class="navbar-logo" src="../assets/navbar-logo.svg" alt=""> -->
           <img class="navbar-logo" src="../assets/navbar-logo.svg" alt="">
-          <div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
+
+          <div class="hamburger"><i class="fa fa-bars" aria-hidden="true" onclick="myfunction"></i></div>
         </div>
       </router-link>
 
@@ -122,12 +124,20 @@
         </div>
       </div>
     </div>
+    <div class="flex-view flex-direction-col responsive-menu">
+      <div>Home</div>
+       <div>Service</div>
+        <div>Integration</div>
+         <div>About</div>
+
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 // import HelloWorld from "@/components/HelloWorld.vue";
+
 
 export default {
   name: "header",
