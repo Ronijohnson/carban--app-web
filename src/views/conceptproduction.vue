@@ -192,9 +192,11 @@ export default {
   }
   
   .fair-phone-container{
-         margin-top: 0px;
-    margin-left: -45px;
+    margin-top: 0px;
     height: 287px;
+    width: 297px;
+    border: 2px solid #9e9e9e5e !important;
+    border-radius: 6px;
   }
   .fair-img{
          width: 50px;
@@ -253,7 +255,7 @@ export default {
 .fair-phone-container:hover .fair-explore-button{
   color: white;
 }
-.custom-broject-container{
+/* .custom-broject-container{
       width: 867px;
     border: 2px solid #f6f2f2;
     margin-left: 6rem;
@@ -305,7 +307,7 @@ export default {
 .custom-broject-container:hover .integration-text{
   color: #fff;
 }
-
+ */
 .hvr-sweep-to-right {
   display: inline-block;
   vertical-align: middle;
@@ -474,14 +476,19 @@ export default {
   display: none;
 }
 .fair-phone-container {
-    margin-top: 0px;
-    /* margin-left: -202px; */
-    height: 287px;
-    width: 1464px !important;
-    margin-left: 3px;
+      height: 287px;
+    width: 100% !important;
+    margin: 0px auto;
+    max-width: 331px;
+    margin-left: 11px !important;
+    margin-top: 15px !important;
 }
 .main-width{
-  width:360px !important;
+  /* width:360px !important; */
+  width: 360px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
   
 }
 .fair-phone-container{

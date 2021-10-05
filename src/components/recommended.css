@@ -135,6 +135,57 @@
 .hvr-grow-shadow:hover .monday-button{
     color: white;
 }
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+
+
+  .recommended-svg[data-v-7226820a] {
+    width: 75px;
+    margin-left: 2rem;
+}
+.recommended-heading[data-v-7226820a] {
+  font-size: 22px;
+  margin-left: 9px;
+  font-weight: bold;
+  font-family: 'Raleway';
+  width: 227px;
+}
+.hr[data-v-7226820a] {
+  height: 1px;
+  width: 387px;
+  background-image: linear-gradient(to right, #b7bfdd, 75%, rgba(183, 191, 221, 0));
+  margin-top: 10px;
+}
+.recommented-content[data-v-7226820a] {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #9093A2;
+  margin-top: 14px;
+  margin-bottom: 0px;
+  width: 674px;
+  margin-left: 3rem;
+  font-size: 18px;
+  font-family: 'Raleway';
+}
+.mobile-responsive-boxes{
+  display: table-cell;
+}
+.tab-responsive{
+  display: table-cell;
+}
+.monday-box-container[data-v-7226820a] {
+  border: 2px solid #f2f2f2;
+  border-radius: 5px;
+  margin-left: 26px;
+  width: 345px;
+  height: 334px;
+  margin-top: 22px;
+}
+}
+
+
+
 
 @media only screen and (max-width: 767px) {
   .recommended-svg[data-v-7226820a] {

@@ -42,7 +42,7 @@
           </button>
         </div>
       </div>
-      <div class="flex-view flex-direction-col fair-phone-container">
+      <div class="flex-view flex-direction-col fair-phone-container new-contant">
         <div>
           <img class="fair-img" src="../assets/web_design.svg" alt />
         </div>
@@ -243,15 +243,12 @@ export default {
 }
 
 .fair-phone-container {
-  /* border: 2px solid #80808038;
-    width: 254px;
-    height: 265px;
-    margin-top: 37px;
-    margin-left: 16px;
-    border-radius: 5px; */
   margin-top: 0px;
-  margin-left: -45px;
-  height: 288px;
+    height: 287px;
+    width: 297px;
+    border: 2px solid #9e9e9e5e !important;
+    border-radius: 6px;
+
 }
 
 .fair-phone-secont-box {
@@ -310,14 +307,7 @@ export default {
 .fair-phone-container:hover .fair-explore-button {
   color: white;
 }
-.custom-broject-container {
-  width: 1049px !important;
-  border: 2px solid #f6f2f2;
-  margin-left: 8rem;
-  margin-top: 30px;
-  height: 137px;
-  border-radius: 5px;
-}
+
 .custom-project-first-heading {
   font-size: 22px;
   font-weight: bold;
@@ -344,7 +334,7 @@ export default {
   font-family: "Raleway";
   margin-right: 5rem;
 }
-.custom-broject-container:hover {
+/* .custom-broject-container:hover {
   -webkit-box-shadow: 0px 25px 25px -15px #00b0c2;
   box-shadow: 0px 25px 25px -15px #00b0c2;
   background: #00b0c2 !important;
@@ -357,7 +347,7 @@ export default {
 }
 .custom-broject-container:hover .integration-text {
   color: #fff;
-}
+} */
 
 .hvr-sweep-to-right {
   display: inline-block;
@@ -467,66 +457,6 @@ export default {
   box-shadow: 0px 25px 25px -15px #8571ac;
 }
 
-
-
-
-
-
-@media only screen and (max-width: 767px) {
-  .carbotext-svg {
-    width: 59px !important;
-    padding-left: 9px !important;
-  }
-  .circule {
-    display: none;
-  }
-  .hr {
-    display: none;
-  }
-  .our-team-text {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #9093a2;
-    margin-top: 16px;
-    margin-bottom: 10px;
-    width: 330px;
-    margin-left: 1rem;
-    font-size: 16px;
-    font-family: "Raleway";
-  }
-  .expo-container {
-    display: none !important;
-  }
-  .fair-phone-container {
-    margin-top: 0px;
-    /* margin-left: -202px; */
-    height: 287px;
-    width: 1464px !important;
-    margin-left: 3px;
-  }
-  .main-width {
-    width: 360px !important;
-  }
-  .fair-phone-container {
-    height: 287px;
-    width: 349px !important;
-    margin: 0px auto;
-  }
-  .fair-phone-secont-box {
-    margin-left: 0px !important;
-    margin-top: 16px !important;
-  }
-  .custom-broject-container {
-    width: 350px !important;
-    border: 2px solid #f6f2f2 !important;
-    margin-left: 0rem !important;
-    margin-top: 30px !important;
-    height: 137px !important;
-    border-radius: 5px !important;
-  }
-}
 @media only screen and (max-width: 1024px) {
       .carbotext-svg[data-v-1fe830de] {
     width: 42px;
@@ -634,4 +564,79 @@ export default {
 
 
 }
+
+
+
+
+@media only screen and (max-width: 767px) {
+  .carbotext-svg {
+    width: 59px !important;
+    padding-left: 9px !important;
+  }
+  .circule {
+    display: none;
+  }
+  .hr {
+    display: none;
+  }
+  .our-team-text {
+    font-style: normal;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #9093a2;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    width: 330px !important;
+    margin-left: 1rem;
+    font-family: "Raleway";
+  }
+  .expo-container {
+    display: none !important;
+        height: 287px;
+    width: 100% !important;
+    margin: 0px auto;
+    max-width: 331px;
+    margin-left: 11px !important;
+  }
+  /* .fair-phone-container {
+          margin-top: 0px;
+    margin-left: 12px !important;
+    height: 322px;
+    width: 330px !important;
+    border-radius: 4px !important;
+    border: 1px solid #9e9e9eab;
+    margin-top: 15px !important;
+  } */
+  /* .new-contant{
+    margin-left: 16px !important;
+    margin-top: 15px !important;
+  } */
+  .main-width {
+    
+    width: 360px !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  /* .fair-phone-container {
+    height: 287px;
+    width: 349px !important;
+    margin: 0px auto;
+  } */
+  .fair-phone-secont-box {
+    margin-left: 0px !important;
+    margin-top: 16px !important;
+  }
+  .fair-phone-container[data-v-1fe830de][data-v-1fe830de] {
+    margin-top: 12px !important;
+    margin-left: 13px !important;
+    height: 318px;
+    width: 335px;
+    border-radius: 4px !important;
+    border: 1px solid #9e9e9eab;
+}
+ 
+ 
+}
+
 </style>

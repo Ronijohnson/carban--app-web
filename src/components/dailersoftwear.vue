@@ -16,7 +16,7 @@
         <button class="lean-button">Learn More</button>
       </div>
     </div>
-    <div class="flex-view flex-direction-row justify-content-b" style="width: 1013px;;">
+    <div class="flex-view flex-direction-row justify-content-b main-width-dailersoftwear">
       <div>
         <div class="flex-view flex-direction-col app-box hvr-grow-shadow">
           <div>

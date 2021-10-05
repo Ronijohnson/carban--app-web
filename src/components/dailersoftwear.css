@@ -96,6 +96,9 @@ p{
       background-color: white !important;
       color: #00B0C2 !important;
   }
+  .main-width-dailersoftwear{
+        width: 1013px;;
+  }
   .appcarban-img{
     width: 67px;
     height: 75px;
@@ -294,6 +297,50 @@ p{
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
     
+  }
+
+  @media only screen and (min-width: 768px) and (max-width:1024px) {
+    .second-container {
+      padding-top: 46px;
+      /* right: 59%; */
+      width: 712px;
+      margin: auto;
+      border-radius: 10px;
+      background-size: 994px;
+      background-position-x: -9px;
+      background-repeat: no-repeat;
+      background-position-y: 2px;
+      height: 346px;
+      /* background-image: url(..assets/Phone.jpg); */
+      /* background-image: url(/img/feat_linkedin.e4061e8f.jpeg); */
+      background-image: url(/img/Banner.ea076f73.png);
+  }
+  .app-box[data-v-73837bc6] {
+    border: 2px solid #8080802b;
+    height: 184px !important;
+    width: 187px !important;
+    background-color: #ffff;
+    border-radius: 4px;
+    /* margin-left: -2rem; */
+    margin-top: 20px;
+    margin-left: 1rem;
+}
+.need-help-box[data-v-73837bc6] {
+  border: 2px solid #8080802b;
+  height: 303px !important;
+  width: 298px !important;
+  border-radius: 4px;
+  margin-top: 30px;
+  position: relative;
+  background-color: #fff;
+  left: -3%;
+  top: -3%;
+  text-align: center;
+}
+.main-width-dailersoftwear{
+  width: 100%;
+}
+
   }
 
   @media only screen and (max-width: 767px) {

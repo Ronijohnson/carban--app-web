@@ -203,15 +203,11 @@ export default {
   }
   
   .fair-phone-container{
-        /* border: 2px solid #80808038;
-    width: 254px;
-    height: 265px;
-    margin-top: 37px;
-    margin-left: 16px;
-    border-radius: 5px; */
-        margin-top: 0px;
-    margin-left: -45px;
-    height: 288px;
+   margin-top: 0px;
+    height: 287px;
+    width: 297px;
+    border: 2px solid #9e9e9e5e !important;
+    border-radius: 6px;
   }
   .fair-phone-secont-box{
      margin-left: 125px !important;
@@ -275,14 +271,14 @@ export default {
 .fair-phone-container:hover .fair-explore-button{
   color: white;
 }
-.custom-broject-container{
+/* .custom-broject-container{
       width: 867px;
     border: 2px solid #f6f2f2;
     margin-left: 6rem;
     margin-top: 30px;
     height: 157px;
     border-radius: 5px;
-}
+} */
 .custom-project-first-heading{
      font-size: 22px;
     font-weight: bold;
@@ -311,7 +307,7 @@ export default {
     font-family: 'Raleway';
     margin-right: 5rem;
 }
-.custom-broject-container:hover{
+/* .custom-broject-container:hover{
   -webkit-box-shadow: 0px 25px 25px -15px #00b0c2;
   box-shadow: 0px 25px 25px -15px #00b0c2;
   background: #00B0C2 !important;
@@ -320,13 +316,13 @@ export default {
   transition: all 0.35s ease-Out;
   
 
-}
-.custom-broject-container:hover .left-button{
+} */
+/* .custom-broject-container:hover .left-button{
   background-color: #fff;
-}
-.custom-broject-container:hover .integration-text{
+} */
+/* .custom-broject-container:hover .integration-text{
   color: #fff;
-}
+} */
 
 .hvr-sweep-to-right {
   display: inline-block;
@@ -498,41 +494,48 @@ export default {
     color: #9093a2;
     margin-top: 16px;
     margin-bottom: 10px;
-    width: 330px;
+    width: 330px !important;
     margin-left: 1rem;
     font-size: 16px;
     font-family: "Raleway";
   }
-  .expo-container {
-    display: none !important;
-  }
-  .fair-phone-container {
-    margin-top: 0px;
-    /* margin-left: -202px; */
-    height: 287px;
-    width: 1464px !important;
-    margin-left: 3px;
-  }
+  .expo-container[data-v-94c268ac] {
+    width: 331px;
+    height: 323px;
+    margin-left: 14px;
+    border-radius: 4px;
+    display: block !important;
+    /* background-color: gray; */
+    background-image: none !important;
+    border: 2px solid #9e9e9e5c !important;
+    margin-bottom: 15px !important;
+}
+.fair-phone-container[data-v-94c268ac] {
+    height: 320px;
+    width: 328px !important;
+    margin: 0px auto;
+}
+ 
   .main-width {
     width: 360px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+
   }
-  .fair-phone-container {
-    height: 287px;
-    width: 349px !important;
-    margin: 0px auto;
-  }
+  
   .fair-phone-secont-box {
     margin-left: 0px !important;
     margin-top: 16px !important;
   }
-  .custom-broject-container {
+  /* .custom-broject-container {
     width: 350px !important;
     border: 2px solid #f6f2f2 !important;
     margin-left: 0rem !important;
     margin-top: 30px !important;
     height: 137px !important;
     border-radius: 5px !important;
-  }
+  } */
   .marketing-responsive-box{
     display: flex !important;
     flex-direction: column !important;

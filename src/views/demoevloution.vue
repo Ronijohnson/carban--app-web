@@ -1,13 +1,15 @@
 <template>
     <div>
-        <div class="flex-view flex-direction-col custom-broject-container">
-          <div><p class="custom-project-first-heading font-family: 'Raleway'; ">Demo our Eveloution Plan</p></div>
+        <div class="flex-view flex-direction-col custom-broject-container one">
+          <div><p class="custom-project-first-heading new-demo-hadding-two">Demo our Eveloution Plan</p></div>
            <div class="flex-view flex-directon-row justify-content-b" style="
     align-items: center;">
-               <div><p class="integration-text">Learn how other companies have benefitted from our evolution plan.</p></div>
+               <div><p class="integration-text new-demo-hadding-three">Learn how other companies have benefitted from our evolution plan.</p></div>
                <div style="margin-top: -54px;"><button class="left-button hvr-sweep-to-right">Learn More</button></div>
 
            </div>
+
+
         </div>
 
     </div>
@@ -81,14 +83,14 @@ export default {
 .fair-phone-container:hover .fair-explore-button{
   color: white;
 }
-.custom-broject-container{
+/* .custom-broject-container{
        width: 1069px !important;
     border: 2px solid #f6f2f2 !important;
     margin-left: 8rem !important;
     margin-top: 30px !important;
     height: 137px !important;
     border-radius: 5px !important;
-}
+} */
 .custom-project-first-heading{
       font-size: 22px;
     font-weight: bold;
@@ -190,24 +192,53 @@ export default {
 .hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
   box-shadow: 0px 25px 25px -15px #69caf7;
 }
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
+  
+  /* .new-demo-hadding-one{
+  
+    font-size: 16px !important;
+    font-weight: bold !important;
+    margin-left: 1rem !important;
+    margin-bottom: 13px !important;
+    font-family: 'Raleway' !important;
+    margin-top: 15px !important;
+    width: 335px !important;
+  } */
+  .one{
+  max-width: 92% !important;
+  }
+  .new-demo-hadding-two{
+    font-size: 20px !important;
+    margin-left: 17px !important;
+    margin-top: 20px !important;
+  }
+  .new-demo-hadding-three{
+    margin-left: 1rem !important;
+    margin-top: 0px !important;
+    font-size: 16px !important;
+    color: #8080809c !important;
+    font-family: 'Raleway' !important;
+    width: 197px !important;
+  }
   
 
-  .custom-broject-container {
-    width: 350px !important;
-    border: 2px solid #f6f2f2 !important;
-    margin-left: 0rem !important;
+  /* div.custom-project-container {
+   
+    width: 341px !important;
+    border: 2px solid #f6f2f2;
+    margin-left: 12px !important;
     margin-top: 30px !important;
     height: 137px !important;
     border-radius: 5px !important;
+    
   }
   .custom-project-first-heading {
-     font-size: 23px !important;
-    font-weight: bold !important;
-    margin-left: 1rem !important;
+     font-size: 15px ;
+    font-weight: bold ;
+    margin-left: 1rem ;
     margin-bottom: 0px;
-    font-family: 'Raleway' !important;
-    margin-top: 19px !important;
+    font-family: 'Raleway' ;
+    margin-top: 18px ;
 }
 .integration-text {
     margin-left: 1rem !important;
@@ -229,9 +260,9 @@ export default {
     margin-right: 1rem !important;
     font-size: 12px;
     margin-top: 34px !important;
-}
+} */
   }
-  @media only screen and (max-width: 1024px) {
+  @media (max-width: 1024px) {
     
 
      .custom-broject-container {
@@ -243,12 +274,12 @@ export default {
     border-radius: 5px !important;
 }
 .custom-project-first-heading {
-    font-size: 24px !important;
-    font-weight: bold !important;
-    margin-left: 2rem !important;
-    margin-bottom: 13px !important;
-    font-family: 'Raleway'!important;
-    margin-top: 44px !important;
+    font-size: 24px ;
+    font-weight: bold ;
+    margin-left: 2rem ;
+    margin-bottom: 13px ;
+    font-family: 'Raleway';
+    margin-top: 44px ;
 }
 .integration-text {
     margin-left: 2rem !important;
@@ -263,79 +294,4 @@ export default {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* grow shaddow on img ............*/
-  /* .grow-shadow img {
-    -webkit-transition: all .2s ease-in-out;
-            transition: all .2s ease-in-out;
-  }
-  .grow-shadow img .ticket:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-        transform: scale(1.2);
-    box-shadow: 10px 15px 7px lightblue;
-  } */
-  /* .hvr-grow-shadow {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: box-shadow, transform;
-    transition-property: box-shadow, transform;
-  }
-  .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
-    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  } */
   </style>

@@ -362,7 +362,122 @@ export default {
 }
 
 
-
+ @media only screen and (min-width: 768px) and (max-width:1024px) {
+ 
+ .carbotext-svg[data-v-a5fdcfde] {
+    width: 69px;
+    padding-left: 41px;
+}
+.app-text[data-v-a5fdcfde] {
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 23px;
+    font-family: 'Raleway';
+    /* font-weight: bold; */
+    font-style: normal;
+    width: 218px;
+    font-weight: 600;
+}
+.hr[data-v-a5fdcfde] {
+    height: 1px;
+    background-image: linear-gradient(to right, #b7bfdd, 75%, rgba(183, 191, 221, 0));
+    margin-top: 10px;
+    width: 319px;
+}
+.our-team-text[data-v-a5fdcfde] {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #9093A2;
+    margin-top: 17px;
+    margin-bottom: 10px;
+    width: 685px;
+    margin-left: 3rem;
+    font-size: 18px;
+    font-family: 'Raleway';
+}
+.ticket{
+  display: none;
+}
+ 
+ .explore-contianer[data-v-a5fdcfde] {
+    width: 300px;
+    font-size: 0px;
+    height: 287px;
+    margin-top: 36px;
+    border: 2px solid #9e9e9e63;
+    border-radius: 4px;
+    position: revert;
+    padding: 15px;
+}
+.fair-phone-container[data-v-a5fdcfde] {
+    border: 2px solid #80808038;
+    width: 331px;
+    height: 315px;
+    margin-top: 37px;
+    margin-left: 16px;
+    border-radius: 5px;
+}
+.explore-icon[data-v-a5fdcfde] {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 5px;
+    background-color: #9e9e9e6b;
+}
+.ticket-booth-heading[data-v-a5fdcfde] {
+    text-overflow: ellipsis;
+    font-size: 17px;
+    color: #fff;
+    margin-top: 11px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: black;
+    font-weight: bold;
+}
+.explore-content[data-v-a5fdcfde] {
+    width: 237px;
+    font-size: 15px;
+    margin-top: 9px;
+    color: black;
+    line-height: 22px;
+    font-family: 'Raleway';
+}
+.explore-button[data-v-a5fdcfde] {
+       width: 167px;
+    height: 37px;
+    font-size: 21px;
+    color: black;
+    border: none;
+    background-color: transparent;
+    text-align: right;
+    margin-left: 8rem;
+    margin-top: 30px;
+}
+.fair-explore-button[data-v-a5fdcfde] {
+    font-size: 22px;
+    border: none;
+    background-color: transparent;
+    margin-top: 61px;
+    padding-right: 21px;
+}
+.custom-broject-container[data-v-a5fdcfde] {
+    width: 689px !important;
+    border: 2px solid #f6f2f2 !important;
+    margin-left: 2rem !important;
+    margin-top: 30px !important;
+    height: 137px !important;
+    border-radius: 5px !important;
+}
+.recommended-svg[data-v-7226820a] {
+    width: 75px;
+    margin-left: 1rem;
+}
+ 
+ }
 
 
 
