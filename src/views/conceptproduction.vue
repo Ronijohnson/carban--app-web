@@ -1,6 +1,7 @@
 <template>
+<div id="CP">
     <div class="flex-view flex-direction-col justify-content-b">
-        <div class="flex-view flex-direction-row" style=" align-items: center; padding: 35px 0px 0px;">
+        <div class="flex-view flex-direction-row concept-producton-margin" >
             <div><img class="carbotext-svg" src="../assets/team1.png" alt=""></div>
             <div><p class="app-text">Concept Production</p></div>
             <!-- <div class="flex-view flex-direction-row">
@@ -39,6 +40,7 @@
         </div>
 
     </div>
+    </div>
 </template>
 
 
@@ -51,6 +53,11 @@ export default {
 }
 </script>
  <style scoped>
+
+ .concept-producton-margin{
+    align-items: center; 
+    padding: 35px 0px 0px;
+ }
  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,100&display=swap');
 .flex-direction-col {
     flex-direction: column;
@@ -461,7 +468,11 @@ export default {
 
 @media only screen and (max-width: 767px) {
   
-
+.concept-producton-margin{
+  align-items: center !important; 
+    padding: 35px 0px 0px !important;
+    margin-top: 40px !important;
+}
 .carbotext-svg {
     width: 59px !important;
     padding-left: 6px !important;
@@ -485,10 +496,11 @@ export default {
 }
 .main-width{
   /* width:360px !important; */
-  width: 360px !important;
+  /* width: 360px !important; */
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
+    max-width: 100% !important;
   
 }
 .fair-phone-container{
@@ -628,6 +640,12 @@ export default {
     border: none;
     background-color: transparent;
 }
+.concept-producton-margin[data-v-8d01ec12] {
+    align-items: center;
+    padding: 35px 0px 0px;
+    padding-top: 114px;
+}
+
 }
 
 

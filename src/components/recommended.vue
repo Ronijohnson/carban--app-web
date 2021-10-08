@@ -81,7 +81,7 @@
         </div>
       </div>
     </div>
-    <div class="flex-view flex-direction-row mobile-responsive-second-boxes tab-responsive" style="    margin-left: 99px;;margin-top: 30px;">
+    <div class="flex-view flex-direction-row mobile-responsive-second-boxes tab-responsive Roni" >
       <div class="flex-view flex-direction-col monday-box-container hvr-grow-shadow boxes-width">
         <div>
           <img class="monday-svg" src="../assets/freshbooks.png" alt />

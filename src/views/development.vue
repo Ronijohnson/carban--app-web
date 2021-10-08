@@ -1,4 +1,6 @@
 <template>
+
+<div id="scroll">
   <div class="flex-view flex-direction-col justify-content-b">
     <div class="flex-view flex-direction-row" style=" align-items: center; padding: 35px 0px 0px;">
       <div>
@@ -82,7 +84,9 @@
       </div>
     </div>
   </div>
+  </div>
 </template>
+
 
 
 
@@ -614,7 +618,7 @@ export default {
   } */
   .main-width {
     
-    width: 360px !important;
+   max-width: 100% !important;
     display: flex !important;
     flex-direction: column !important;
   }

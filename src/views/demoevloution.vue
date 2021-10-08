@@ -247,7 +247,9 @@ export default {
     color: #8080809c !important;
     font-family: 'Raleway' !important;
     width: 209px !important;
-}
+}*/
+
+
 .left-button {
     border: 1.5px solid #00B0C2;
     border-radius: 4px;
@@ -260,7 +262,9 @@ export default {
     margin-right: 1rem !important;
     font-size: 12px;
     margin-top: 34px !important;
-} */
+} 
+
+
   }
   @media (max-width: 1024px) {
     

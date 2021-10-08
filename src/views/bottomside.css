@@ -144,6 +144,16 @@
 a:hover{
     color:#00B0C2;
 } 
+@media only screen and (max-width: 1024px) {
+
+
+  .survices-coontainer{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    padding-top: 51px !important;
+}
+  }
 
 
 @media only screen and (max-width: 767px) {
@@ -183,3 +193,4 @@ a:hover{
   font-size: 26px;
 }
   }
+  

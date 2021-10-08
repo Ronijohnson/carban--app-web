@@ -492,8 +492,7 @@ export default {
 }
 
 .main-width{
- 
- width: 360px !important;
+  max-width: 100% !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;

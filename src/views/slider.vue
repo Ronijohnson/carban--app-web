@@ -66,31 +66,36 @@
     </VueSlickCarousel>
  
       <div class="flex-view flex-direction-row justify-content-c team-row">
-          <div class="flex-view flex-direction-row concept-icon ">
-            <div class="icon ">  <img style="width:40px"  src="../assets/team1.png" alt /></div>
+         
+           <a href="#scroll">
+            <div class="flex-view flex-direction-row concept-icon ">
+            <div class="icon ">  <img style="width:40px"  src="../assets/team1.png" alt />
+            </div>
               <p class="content">Concept production</p>
               
               </div>
+           </a>
                
-               <div class="flex-view flex-direction-row">
-              <div class="icon" ><img style="width:40px" src="../assets/carban3.png" alt /></div>
-              <p class="content">Development</p>
+               <div class="flex-view flex-direction-row development-icon">
+              <div class="icon" ><img style="width:40px" src="../assets/carban3.png"  @click="goDevelopment()" alt /></div>
+              <p class="content">Development  </p>
               
               </div>
+              
 
-              <div class="flex-view flex-direction-row">
+              <div class="flex-view flex-direction-row data-managment-icon">
               <div class="icon" ><img style="width:40px" src="../assets/team3.png" alt /></div>
-              <p class="content">Data Management</p>
+              <p class="content">Management </p>
               
               </div>
 
-              <div class="flex-view flex-direction-row">
+              <div class="flex-view flex-direction-row concept-icon">
             <div class="icon" ><img style="width:40px" src="../assets/carban4.png" alt /></div>
               <p class="content">Marketing</p>
               
               </div>
 
-              <div class="flex-view flex-direction-row">
+              <div class="flex-view flex-direction-row integration-icon">
             <div class="icon" ><img style="width:40px" src="../assets/integrations-team.png" alt /></div>
               <p class="content">Integration</p>
               
@@ -113,42 +118,121 @@
   export default {
     name: 'MyComponent',
     components: { VueSlickCarousel },
+
+  //  data() {
+  //   return {
+  //     goDevelopment: true,
+  //   };
+  // },
+  // methods: {
+  //   goDevelopment() {
+  //     this.development-M  = !this.development-M;
+  //   },
+  // },
+  
+
   }
 </script> 
 <style scoped>
-.icon:hover + .content{
-    display: block;
-        transition: all 0.4s ease-in-out;
-            /* border: 1px solid #ffc10778;
-    border-radius: 4px;
-    background-color: #ffc10726;
-  */
-}
-.icon:hover + .concept-icon{
-    border: 1px solid #ffc10778;
-    border-radius: 4px;
-    background-color: #ffc10726;
+
+
+.scroll{
+  /* scroll-behavior: smooth; */
+  /* scroll-behavior: smooth; */
+  scroll-behavior: auto;
+  text-decoration: none;
 }
 
+.concept-icon:hover  .content{
+    display: block;
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+    transform: translateX(0%);
+    width: 120px;
+
+    
+    
+}
+
+
+.concept-icon:hover {
+    align-items: center;
+    background: rgba(212, 225, 87, 0.15);
+    border: 1px solid rgb(212, 225, 87);
+    border-radius: 4px;
+        height: 58px;
+    margin-left: 18px;
+    
+    
+  }
+  .development-icon:hover  .content{
+    display: block;
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+    transform: translateX(0%);
+    width: 120px;
+    
+}
+  .development-icon:hover{
+    background: rgba(182, 126, 194, 0.15);
+    border: 1px solid rgb(182, 126, 194);
+    border-radius: 4px;
+        height: 58px;
+    margin-left: 18px;
+  }
+  .data-managment-icon:hover  .content{
+    display: block;
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+    transform: translateX(0%);
+    width: 120px;
+   
+    
+}
+  .data-managment-icon:hover{
+    background: rgba(108, 133, 196, 0.15);
+    border: 1px solid rgb(108, 133, 196);
+    border-radius: 4px;
+        height: 58px;
+    margin-left: 18px;
+  }
+  .integration-icon:hover  .content{
+    display: block;
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+    transform: translateX(0%);
+    width: 120px;
+  }
+
+  .integration-icon:hover{
+    background: rgba(240, 79, 192, 0.15);
+    border: 1px solid rgb(240, 79, 192);
+    border-radius: 4px;
+        height: 58px;
+       margin-left: -10px;
+  }
+
+
 .content{
-     width: 70px;
-    display: none;
-    /* display: none; */
-    font-size: 12px;
+   /* width: 100%;
+    display: none; */
+    /* font-size: 16px; */
     /* text-align: left; */
-    font-weight: bold;
+    /* font-weight: bold;
     text-align: start;
-    margin-left: -9px;
+    margin-left: -14px;
+    margin-right: 12px;
+        margin-top: 23px; */
+        width: 1px;
+        overflow: hidden;
 }
 .icon{
-    /* margin-right: 29px;
-    margin-left: 10px;
-    width: 42px;
-    padding-top: 11px; */
-        /* margin-right: 29px; */
-    margin-left: 10px;
-    width: 42px;
-    margin-right: 20px;
+      margin-right: 29px !important;
+    margin-left: 14px;
+    height: 60px;
+    width: 34%;
+    margin-right: 22px !important;
+    margin-top: 10px;
 }
 .team-row{
             border: 1px solid;
@@ -266,14 +350,22 @@
     border: 1px solid;
     background-color: #f0f2f5;
     margin: 0px auto;
-    width: 59%;
+    width: 60%;
     position: absolute;
     right: 20%;
     bottom: 48%;
     height: 71px;
-    border-radius: 4px;
+    border-radius: 6px;
     border: none;
     align-items: center;
+    height: 97px;
+}
+.icon[data-v-2f31520a] {
+    margin-right: 29px !important;
+    margin-left: 10px;
+    height: 60px;
+    width: 21%;
+    margin-right: 15px !important;
 }
    }
 

@@ -1,6 +1,8 @@
 
 
-
+.CP{
+  scroll-behavior: smooth;
+}
 .responsive-menu{
   display: none !important;
 }
@@ -246,6 +248,7 @@ position: relative;
   font-size: 10px;
   text-align: left;
   margin-left: 34px;
+  overflow: hidden;
 }
 .icon{
   margin-left: 8px;
@@ -320,6 +323,7 @@ position: relative;
   margin-right: 15px;
   border: none;
   margin-top: 15px;
+  height: 0px;
 }
 .Integrations-box{
   border: 1px solid #0000ff2b;
@@ -329,6 +333,7 @@ position: relative;
   border-radius: 3px;
   border: none;
   margin-top: 15px;
+  height: 0px;
 }
 .Data-Management{
   border: 1px solid #0000ff2b;
@@ -339,6 +344,7 @@ position: relative;
   border: none;
   margin-top: 15px;
   margin-left: 15px;
+  height: 0px;
 
 }
 .Data{
@@ -392,7 +398,7 @@ position: relative;
     transition-timing-function: ease-out;
     transition-delay: 0s;
     background-color: #F5F7FB;
-    height: 58px;
+    /* height: 58px; */
 }
 .three{
    transition: width ease-out 0.6s;
@@ -417,6 +423,7 @@ position: relative;
   transition-timing-function: ease-out;
   transition-delay: 0s;
   background-color: #F5F7FB;
+  height: 0px;
   
 
 }
@@ -580,7 +587,21 @@ position: relative;
   }
 
 
-  
+  .message-icon{
+    background-color: #69d757 !important;
+    border-radius: 34px 8px 34px 34px;
+    bottom: 6px;
+    box-shadow: 0 5px 4px 0 rgb(0 0 0 / 26%);
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    top: 84%;
+    z-index: 9995;
+    height: 59px;
+    width: 15% !important;
+    display: none;
+  }
 
 
 
@@ -591,20 +612,63 @@ position: relative;
 
 @media only screen and (max-width: 767px) {
   
+
+  .forward-icon-one{
+    margin-left: 50px;
+    font-size: 17px;
+  }
+  .forward-icon-two{
+    margin-left: 54px;
+    font-size: 17px;
+  }
+  .forward-icon-three{
+    margin-left: 46px;
+    font-size: 17px;
+  }
+  .forward-icon-four{
+    margin-left: 47px;
+    font-size: 17px;
+  }
+  .forward-icon-five{
+    margin-left: 38px;
+    font-size: 17px;
+  }
+  .mobile-static-nav{
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    margin: 0px auto;
+    left: 0%;
+    z-index: 10;
+    top: 0%;
+
+
+  }
+  .chat-icon{
+    padding: 22px 4px 10px 0px;
+    margin-left: 20px;
+  }
+  
   
   .responsive-menu{
-    display: block;
-    display: block !important;
-    font-size: 66px;
-    position: absolute;
-    left: 241%;
-    top: 18%;
-    background-color: #9e9e9eab;
-    border-radius: 11px;
+    font-size: 13px;
+    position: fixed;
+    left: 59%;
+    top: 7%;
     align-items: center;
-    width: 361px;
-    height: 419px;
-    display: none !important;
+    width: 100%;
+    max-width: 245px !important;
+    height: 88%;
+    display: block !important;
+    background-color: #ffff;
+    font-family: 'Raleway';
+    border-radius: 4px;
+    padding: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    z-index: 10px !important;
+    transition: 0.4s;
+    z-index: 10;
   }
   .Nav-bar{
     display: none;
@@ -623,9 +687,10 @@ position: relative;
 }
   .hamburger[data-v-29e8c3c6][data-v-29e8c3c6] {
     display: block;
-    margin-left: 16rem;
+    margin-left: 20rem;
     margin-top: 20px;
     font-size: 26px;
+    position: fixed;
 
 }
 .navbar-logo{
@@ -652,6 +717,7 @@ position: relative;
     background-color: rgb(245, 247, 251);
     margin-top: 18px;
 } */
+.message-icon{display: block;}
 }
 
 

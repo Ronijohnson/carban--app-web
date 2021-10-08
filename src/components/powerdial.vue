@@ -1,6 +1,5 @@
 <template>
-    <div class="flex-view flex-direction-row justify-content-b flex-direction-col-row mobile-resposive-power" style="min-height: 344px;
-    padding-top: 72px;">
+    <div class="flex-view flex-direction-row justify-content-b flex-direction-col-row mobile-resposive-power desktop-width">
         <div class="flexv-view flex-direction-col left-margin">
             <div><h2 class="power-text">Power dial your prospects within monday.com</h2></div>
             <div class="flex-view flex-direction-row">

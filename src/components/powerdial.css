@@ -1,3 +1,10 @@
+
+.desktop-width{
+  min-height: 344px;
+  padding-top: 72px;
+  
+}
+
 .flex-direction-col {
     flex-direction: column;
   }
@@ -218,19 +225,31 @@
 
 
   @media only screen and (max-width: 767px) {
+
+
+
+    .left-margin{
+      margin-left: 0px;
+    }
    .mobile-resposive-power{
      display: flex !important;
      flex-direction: column !important;
      width: 200% !important;
    }
    .power-text{
-    font-size: 52px;
+    /* font-size: 52px;
     margin-left: 42px;
     font-weight: bold;
+    font-family: 'Raleway'; */
+    font-size: 26px;
+    margin-left: 0px;
+    font-weight: bold;
     font-family: 'Raleway';
+    width: 100%;
+    max-width: 317px;
 }
 .monday-button{
-  padding: 4px 16px;
+  /* padding: 4px 16px;
   border-radius: 4px;
   margin: 10px;
   margin-left: 0px;
@@ -243,10 +262,20 @@
   height: 66px;
   font-size: 36px;
   color: #B7BFDD;
+  background-color: #b7bfdd21; */
+  padding: 4px 16px;
+  border-radius: 4px;
+  margin: 10px;
+  margin-left: 0px;
+  margin-left: 0px;
+  width: 124px;
+  height: 35px;
+  font-size: 17px;
+  color: #B7BFDD;
   background-color: #b7bfdd21;
 }
 .phoneBurner-button {
-  padding: 4px 16px;
+  /* padding: 4px 16px;
   border-radius: 4px;
   margin: 10px;
   margin-left: 0px;
@@ -259,10 +288,20 @@
   height: 66px;
   font-size: 34px;
   color: #B7BFDD;
+  background-color: #b7bfdd21; */
+  padding: 4px 16px;
+  border-radius: 4px;
+  margin: 10px;
+  margin-left: 0px;
+  margin-left: 0px;
+  width: 124px;
+  height: 35px;
+  font-size: 17px;
+  color: #B7BFDD;
   background-color: #b7bfdd21;
 }
 .button-down-text{
-  font-style: normal;
+  /* font-style: normal;
   font-weight: normal;
   font-size: 34px;
   line-height: 95px;
@@ -272,10 +311,21 @@
   margin-top: 16px;
   line-height: 63px;
   font-family: 'Raleway';
-  width: 678px;
+  width: 678px; */
+  font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 95px;
+    color: #9093A2;
+    width: 505px;
+    margin-left: 0px;
+    margin-top: 16px;
+    line-height: 31px;
+    font-family: 'Raleway';
+    width: 355px;
 }
 .leanmore{
-  margin-left: 44px;
+  /* margin-left: 44px;
   color: #00B0C2;
   margin-top: 35px;
   border: 1.5px solid #00B0C2;
@@ -286,10 +336,26 @@
   color: #00B0C2;
   background: transparent;
   font-family: 'Raleway';
-  font-size: 34px;
+  font-size: 34px; */
+  margin-left: 0px;
+    color: #00B0C2;
+    margin-top: 5px;
+    border: 1.5px solid #00B0C2;
+    border-radius: 4px;
+    box-shadow: 0 3px 15px 0px #00b0c24d !important;
+    height: 39px;
+    width: 141px;
+    color: #00B0C2;
+    background: transparent;
+    font-family: 'Raleway';
+    font-size: 16px;
 }
 .penda-img{
-  width: 691px;
-  margin-top: 83px;
+  margin-top: 36px;
+  width: 100%;
+  padding: 0px;
+}
+.desktop-width{
+  width: 100% !important;
 }
   }

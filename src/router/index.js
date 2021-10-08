@@ -21,7 +21,25 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
-];
+];     
+// make new route .........................................................
+// const routes = [
+//   {
+//     path: "/",
+//     name: "about",
+//     component: about,
+//   },{
+//     path: "about",
+//     name: "about",
+//     component: about,
+//   },
+//   {
+//     path: "/development",
+//     name: "development",
+//     component: () =>
+//       import(/* webpackChunkName: "about" */ "../views/About.vue"),
+//   },
+// ];
 
 const router = new VueRouter({
   mode: "history",
