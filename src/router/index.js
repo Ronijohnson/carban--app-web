@@ -16,30 +16,29 @@ const routes = [
     component: Home,
   },
   {
-    path: "/teamIntegrations",
-    name: "About",
+    path: "/team/:conceptproduction",
+    name: "About2",
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
-];     
-// make new route .........................................................
-// const routes = [
-//   {
-//     path: "/",
-//     name: "about",
-//     component: about,
-//   },{
-//     path: "about",
-//     name: "about",
-//     component: about,
-//   },
-//   {
-//     path: "/development",
-//     name: "development",
-//     component: () =>
-//       import(/* webpackChunkName: "about" */ "../views/About.vue"),
-//   },
-// ];
+  {
+    path: "/team/:development",
+    name: "About3",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/About.vue"),
+  },
+  {
+    path: "/team/:datamanagment",
+    name: "About4",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/About.vue"),
+  },
+
+
+
+];
+
+
 
 const router = new VueRouter({
   mode: "history",

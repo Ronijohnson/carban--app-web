@@ -257,7 +257,7 @@
     margin-left: 87px;
     border-radius: 4px;
     MARGIN: 0px auto;
-    margin-top: 31px;
+    margin-top: 50px !important;
   }
    .explore-content{
        width: 311px;

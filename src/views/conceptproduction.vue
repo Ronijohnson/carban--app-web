@@ -1,265 +1,295 @@
 <template>
-<div id="CP">
+  <div id="CP">
     <div class="flex-view flex-direction-col justify-content-b">
-        <div class="flex-view flex-direction-row concept-producton-margin" >
-            <div><img class="carbotext-svg" src="../assets/team1.png" alt=""></div>
-            <div><p class="app-text">Concept Production</p></div>
-            <!-- <div class="flex-view flex-direction-row">
+      <div class="flex-view flex-direction-row concept-producton-margin">
+        <div>
+          <img class="carbotext-svg" src="../assets/team1.png" alt />
+        </div>
+        <div>
+          <p class="app-text">Concept Production</p>
+        </div>
+        <!-- <div class="flex-view flex-direction-row">
               <div>  <i class=" circule fa fa-circle" aria-hidden="true"></i></div>
                 <div><hr class="hr"></div>
-            </div> -->
+        </div>-->
 
-            <div class="flex-view flex-direction-row">
-        <div>         
-          <i class="circule fa fa-circle" aria-hidden="true"></i>
+        <div class="flex-view flex-direction-row">
+          <div>
+            <i class="circule fa fa-circle" aria-hidden="true"></i>
+          </div>
+          <div class="hr"></div>
         </div>
-        <div class="hr"></div>          
       </div>
-
+      <div>
+        <p
+          class="our-team-text"
+        >The identity of your company relies on strong content and branding that fits what your company is all about. Our team sheds light on your company values to help intrigue new and returning customers.</p>
+      </div>
+      <div class="flex-view flex-direction-row justify-content-a main-width">
+        <!-- <div><img class="ticket hvr-shadow" src="../assets/ticket.png" alt=""></div> -->
+        <div class="expo-container hvr-shadow">
+          <div>
+            <img class="explore-icon" src="../assets/logo_creation_white.svg" alt />
+          </div>
+          <div>
+            <p class="ticket-booth-heading">Brand Development</p>
+          </div>
+          <p
+            class="explore-content"
+          >Create a logo that showcases your values and improve brand recognition with a brand guide</p>
+          <div>
+            <button class="explore-button">
+              Explore
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </button>
+          </div>
         </div>
-        <div><p class="our-team-text">The identity of your company relies on strong content and branding that fits what your company is all about. Our team sheds light on your company values to help intrigue new and returning customers.</p></div>
-        <div class="flex-view flex-direction-row justify-content-a main-width">
-            <!-- <div><img class="ticket hvr-shadow" src="../assets/ticket.png" alt=""></div> -->
-            <div class="expo-container hvr-shadow">
-                <div><img class="explore-icon" src="../assets/logo_creation_white.svg" alt=""></div>
-                <div><p class="ticket-booth-heading">Brand Development</p></div>
-                <p class="explore-content">Create a logo that showcases your values and improve brand recognition with a brand guide</p>
-                <div><button class="explore-button">Explore <i class="fa fa-arrow-right" aria-hidden="true"></i> </button></div>
-
-            </div>
-            <div class="flex-view flex-direction-col fair-phone-container">
-                <div><img class="fair-img" src="../assets/content.svg" alt=""></div>
-                <div><p class="fair-img-heading">Content creation</p></div>
-                <div><p class="fair-content">Fill your online presence with content that retains site visitors and makes them take the next step towards becoming a customer.</p></div>
-                <div style="text-align: end;">
-                    <button class="fair-explore-button">Explore <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                    </button>
-                </div>
-
-            </div>
+        <div class="flex-view flex-direction-col fair-phone-container">
+          <div>
+            <img class="fair-img" src="../assets/content.svg" alt />
+          </div>
+          <div>
+            <p class="fair-img-heading">Content creation</p>
+          </div>
+          <div>
+            <p
+              class="fair-content"
+            >Fill your online presence with content that retains site visitors and makes them take the next step towards becoming a customer.</p>
+          </div>
+          <div style="text-align: end;">
+            <button class="fair-explore-button">
+              Explore
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </button>
+          </div>
         </div>
-
+      </div>
     </div>
-    </div>
+  </div>
 </template>
 
 
 
 
 <script>
-export default {
-    name:"conceptproduction"
-   
-}
+
+     export default {
+    name: 'conceptproduction',
+
+     data() {
+      return {
+      };
+    },
+
+  };
+
+
+
+
 </script>
  <style scoped>
-
- .concept-producton-margin{
-    align-items: center; 
-    padding: 35px 0px 0px;
- }
- @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,100&display=swap');
+.concept-producton-margin {
+  align-items: center;
+  padding: 35px 0px 0px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,100&display=swap");
 .flex-direction-col {
-    flex-direction: column;
-  }
-  .flex-direction-col-row {
-    flex-direction: column;
-  }
-  .flex-direction-row-col {
-    flex-direction: row;
-  }
-  .flex-view {
-    display: flex;
-  }
-  .flex-direction-row {
-    flex-direction: row;
-  }
-  .justify-content-c {
-    justify-content: center;
-  }
-  .justify-content-b {
-    justify-content: space-between;
-  }
-  .justify-content-a {
-    justify-content: space-around;
-  }
-  .main-width{
-      width: 1224px!important;
-  }
-  .expo-container{
-   background-size: 747px;
-    background-repeat: no-repeat;
-    background-position-x: -1px;
-    /* background-image: url(../assets/concet-img.jpeg); */
-    /* background-image: url(..assets/.cone.jpeg); */
-    background-image: url(/img/feat_linkedin.e4061e8f.jpeg);
-    width: 731px;
-    height: 294px;
-    margin-left: 87px;
-    border-radius: 4px;
-  }
-  
+  flex-direction: column;
+}
+.flex-direction-col-row {
+  flex-direction: column;
+}
+.flex-direction-row-col {
+  flex-direction: row;
+}
+.flex-view {
+  display: flex;
+}
+.flex-direction-row {
+  flex-direction: row;
+}
+.justify-content-c {
+  justify-content: center;
+}
+.justify-content-b {
+  justify-content: space-between;
+}
+.justify-content-a {
+  justify-content: space-around;
+}
+.main-width {
+  width: 1224px !important;
+}
+.expo-container {
+  background-size: 747px;
+  background-repeat: no-repeat;
+  background-position-x: -1px;
+  /* background-image: url(../assets/concet-img.jpeg); */
+  /* background-image: url(..assets/.cone.jpeg); */
+  background-image: url(/img/feat_linkedin.e4061e8f.jpeg);
+  width: 731px;
+  height: 294px;
+  margin-left: 87px;
+  border-radius: 4px;
+}
 
-  .carbotext-svg{
-    width: 42px;
-    padding-left: 124px;
-  }
-  .app-text{
-        font-weight: bold;
-    margin-left: 27px;
-    font-size: 21px;
-    font-family: 'Raleway';
-    /* font-weight: bold; */
-    font-style: normal;
-    font-weight: 600;
-
-  }
-  .circule{
-    color: #B7BFDD !important;
-    font-size: 14px !important;
-    margin-left: 40px !important;
-  }
-  .hr{
+.carbotext-svg {
+  width: 42px;
+  padding-left: 124px;
+}
+.app-text {
+  font-weight: bold;
+  margin-left: 27px;
+  font-size: 21px;
+  font-family: "Raleway";
+  /* font-weight: bold; */
+  font-style: normal;
+  font-weight: 600;
+}
+.circule {
+  color: #b7bfdd !important;
+  font-size: 14px !important;
+  margin-left: 40px !important;
+}
+.hr {
   height: 1px;
-    background-image: linear-gradient(to right, #b7bfdd, 75%, rgba(183, 191, 221, 0));
-    margin-top: 10px;
-    width: 495px;
-  }
-  .our-team-text{
-   font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    color: #9093A2;
-    margin-top: 3px;
-    margin-bottom: 10px;
-    width: 819px;
-    margin-left: 8rem;
-    font-size: 12px;
-    font-family: 'Raleway';
-  }
-  .ticket{
-    margin-left: 6rem;
-    margin-top: 37px;
-    /* width: 832px; */
-    /* height: 394px; */
-    position: relative;
-    border-radius: 4px;
-    height: 268px;
-    width: 595px;
-    
-  }
-  /* .ticket:hover{
+  background-image: linear-gradient(
+    to right,
+    #b7bfdd,
+    75%,
+    rgba(183, 191, 221, 0)
+  );
+  margin-top: 10px;
+  width: 495px;
+}
+.our-team-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #9093a2;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  width: 819px;
+  margin-left: 8rem;
+  font-size: 12px;
+  font-family: "Raleway";
+}
+.ticket {
+  margin-left: 6rem;
+  margin-top: 37px;
+  /* width: 832px; */
+  /* height: 394px; */
+  position: relative;
+  border-radius: 4px;
+  height: 268px;
+  width: 595px;
+}
+/* .ticket:hover{
 
   } */
-  .explore-contianer{
- position: absolute;
-    right: 33%;
-    top: 72%;
-    width: 276px;
-    font-size: 0px;
-  }
-  .explore-icon{
- width: 40px;
-    margin-right: 10px;
-    border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.25);
-    padding: 5px;
-    margin-left: 60%;
-    margin-top: 13px;
-  }
-  .ticket-booth-heading{
-    text-overflow: ellipsis;
-    font-size: 17px;
-    color: #fff;
-    margin-top: 11px;
-    font-family: 'Raleway';
-    font-weight: bold;
-    width: 168px;
-    margin-left: 60%;
-  }
-  .explore-content{
-      font-size: 15px;
-    margin-top: 9px;
-    line-height: 21px;
-    font-family: 'Raleway';
-    width: 38%;
-    margin-left: 60%;
-
-  }
-  .explore-button{
-        /* width: 165px; */
-    height: 37px;
-    font-size: 21px;
-    color: #ffff;
-    border: none;
-    background-color: transparent;
-    text-align: right;
-    margin-left: 73%;
-  }
-  
-  .fair-phone-container{
-    margin-top: 0px;
-    height: 287px;
-    width: 297px;
-    border: 2px solid #9e9e9e5e !important;
-    border-radius: 6px;
-  }
-  .fair-img{
-         width: 50px;
-    padding: 6px;
-  }
-  .fair-img-heading{
-   font-size: 15px;
-    color: black;
-    margin-left: 12px;
-    margin: 0px auto;
-    margin-left: 12px;
-    font-weight: bold;
-    font-family: 'Raleway';
-
-  }
-  .fair-content{
-   font-size: 14px;
-    line-height: 23px;
-    padding: 10px;
-    color: gray;
-    /* font-size: -webkit-xxx-large; */
-    margin: 0px auto;
-    font-family: 'Raleway';
-  }
-.fair-explore-button{
- width: 110px;
-    font-size: 18px;
-    margin-top: 11px;
-    border: none;
-    background-color: transparent;
+.explore-contianer {
+  position: absolute;
+  right: 33%;
+  top: 72%;
+  width: 276px;
+  font-size: 0px;
 }
-.shadow-green{
+.explore-icon {
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 5px;
+  margin-left: 60%;
+  margin-top: 13px;
+}
+.ticket-booth-heading {
+  text-overflow: ellipsis;
+  font-size: 17px;
+  color: #fff;
+  margin-top: 11px;
+  font-family: "Raleway";
+  font-weight: bold;
+  width: 168px;
+  margin-left: 60%;
+}
+.explore-content {
+  font-size: 15px;
+  margin-top: 9px;
+  line-height: 21px;
+  font-family: "Raleway";
+  width: 38%;
+  margin-left: 60%;
+}
+.explore-button {
+  /* width: 165px; */
+  height: 37px;
+  font-size: 21px;
+  color: #ffff;
+  border: none;
+  background-color: transparent;
+  text-align: right;
+  margin-left: 73%;
+}
+
+.fair-phone-container {
+  margin-top: 0px;
+  height: 287px;
+  width: 297px;
+  border: 2px solid #9e9e9e5e !important;
+  border-radius: 6px;
+}
+.fair-img {
+  width: 50px;
+  padding: 6px;
+}
+.fair-img-heading {
+  font-size: 15px;
+  color: black;
+  margin-left: 12px;
+  margin: 0px auto;
+  margin-left: 12px;
+  font-weight: bold;
+  font-family: "Raleway";
+}
+.fair-content {
+  font-size: 14px;
+  line-height: 23px;
+  padding: 10px;
+  color: gray;
+  /* font-size: -webkit-xxx-large; */
+  margin: 0px auto;
+  font-family: "Raleway";
+}
+.fair-explore-button {
+  width: 110px;
+  font-size: 18px;
+  margin-top: 11px;
+  border: none;
+  background-color: transparent;
+}
+.shadow-green {
   -webkit-box-shadow: 0px 25px 25px -15px #00b0c2;
   box-shadow: 0px 25px 25px -15px #00b0c2;
-  background: #00B0C2 !important;
+  background: #00b0c2 !important;
   border: 0px !important;
-
-
 }
-.fair-phone-container:hover:hover{
-
+.fair-phone-container:hover:hover {
   -webkit-box-shadow: 0px 25px 25px -15px #00b0c2;
   box-shadow: 0px 25px 25px -15px #00b0c2;
-  background: #00B0C2 !important;
+  background: #00b0c2 !important;
   border: 0px !important;
   color: white;
-
 }
 
-.fair-phone-container:hover .fair-img-heading{
+.fair-phone-container:hover .fair-img-heading {
   color: white;
 }
-.fair-phone-container:hover .fair-content{
+.fair-phone-container:hover .fair-content {
   color: white;
 }
-.fair-phone-container:hover .fair-explore-button{
+.fair-phone-container:hover .fair-explore-button {
   color: white;
 }
 /* .custom-broject-container{
@@ -347,10 +377,14 @@ export default {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+.hvr-sweep-to-right:hover,
+.hvr-sweep-to-right:focus,
+.hvr-sweep-to-right:active {
   color: white;
 }
-.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+.hvr-sweep-to-right:hover:before,
+.hvr-sweep-to-right:focus:before,
+.hvr-sweep-to-right:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
@@ -366,64 +400,14 @@ export default {
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
 }
-.hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
+.hvr-shadow:hover,
+.hvr-shadow:focus,
+.hvr-shadow:active {
   box-shadow: 0px 25px 25px -15px #69caf7;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* grow shaddow on img ............*/
-  /* .grow-shadow img {
+/* grow shaddow on img ............*/
+/* .grow-shadow img {
     -webkit-transition: all .2s ease-in-out;
             transition: all .2s ease-in-out;
   }
@@ -433,7 +417,7 @@ export default {
         transform: scale(1.2);
     box-shadow: 10px 15px 7px lightblue;
   } */
-  /* .hvr-grow-shadow {
+/* .hvr-grow-shadow {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -450,7 +434,7 @@ export default {
     transform: scale(1.1);
   } */
 
-  .hvr-shadow {
+.hvr-shadow {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -461,115 +445,117 @@ export default {
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
 }
-.hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
+.hvr-shadow:hover,
+.hvr-shadow:focus,
+.hvr-shadow:active {
   box-shadow: 0px 25px 25px -15px #20c997;
 }
 
-
 @media only screen and (max-width: 767px) {
-  
-.concept-producton-margin{
-  align-items: center !important; 
+  .concept-producton-margin {
+    align-items: center !important;
     padding: 35px 0px 0px !important;
     margin-top: 40px !important;
-}
-.carbotext-svg {
+  }
+  .carbotext-svg {
     width: 59px !important;
     padding-left: 6px !important;
-}
-.circule{
-  display:none;
-}
-.hr{
-  display:none;
-}
-.expo-container{
-  display: none;
-}
-.fair-phone-container {
-      height: 287px;
+  }
+  .circule {
+    display: none;
+  }
+  .hr {
+    display: none;
+  }
+  .expo-container {
+    display: none;
+  }
+  .fair-phone-container {
+    height: 287px;
     width: 100% !important;
     margin: 0px auto;
     max-width: 331px;
     margin-left: 11px !important;
     margin-top: 15px !important;
-}
-.main-width{
-  /* width:360px !important; */
-  /* width: 360px !important; */
+  }
+  .main-width {
+    /* width:360px !important; */
+    /* width: 360px !important; */
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
     max-width: 100% !important;
-  
-}
-.fair-phone-container{
+  }
+  .fair-phone-container {
     height: 287px;
     width: 349px !important;
     margin: 0px auto;
-}
-.our-team-text[data-v-8d01ec12] {
+  }
+  .our-team-text[data-v-8d01ec12] {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    color: #9093A2;
+    color: #9093a2;
     margin-top: 16px;
     margin-bottom: 10px;
     width: 330px;
     margin-left: 1rem;
     font-size: 16px;
-    font-family: 'Raleway';
-}
-.nav-logo{
+    font-family: "Raleway";
+  }
+  .nav-logo {
     width: 52px;
     /* height: 48px; */
     margin-left: 8px;
     margin-top: 3px;
-}
+  }
 }
 @media only screen and (max-width: 1024px) {
-      
-.carbotext-svg{
+  .carbotext-svg {
     width: 42px;
     padding-left: 14px;
-}
-.app-text{
+  }
+  .app-text {
     font-weight: bold;
     margin-left: 16px;
     font-size: 21px;
-    font-family: 'Raleway';
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 600;
     width: 192px;
-}
-.hr{
+  }
+  .hr {
     height: 1px;
-    background-image: linear-gradient(to right, #b7bfdd, 75%, rgba(183, 191, 221, 0));
+    background-image: linear-gradient(
+      to right,
+      #b7bfdd,
+      75%,
+      rgba(183, 191, 221, 0)
+    );
     margin-top: 10px;
     width: 408px;
-}
-.circule{
-    color: #B7BFDD !important;
+  }
+  .circule {
+    color: #b7bfdd !important;
     font-size: 14px !important;
     margin-left: 19px !important;
-}
-.our-team-text{
+  }
+  .our-team-text {
     font-style: normal;
     font-weight: normal;
     font-size: 16px !important;
     line-height: 22px;
-    color: #9093A2;
+    color: #9093a2;
     margin-top: 3px;
     margin-bottom: 10px;
     width: 730px;
     margin-left: 1rem;
     font-size: 12px;
-    font-family: 'Raleway';
-}
-.expo-container{
-
-     width: 332px;
+    font-family: "Raleway";
+  }
+  .expo-container {
+    width: 332px;
     height: 291px;
     margin-left: 10px;
     border-radius: 4px;
@@ -577,12 +563,12 @@ export default {
     /* background-color: gray; */
     background-image: none !important;
     border: 2px solid #9e9e9e5c !important;
-}
+  }
 
-.main-width{
-    width: 718px!important;
-}
-.explore-icon{
+  .main-width {
+    width: 718px !important;
+  }
+  .explore-icon {
     width: 40px;
     margin-right: 10px;
     border-radius: 4px;
@@ -591,29 +577,29 @@ export default {
     margin-left: 5%;
     margin-top: 13px;
     background-color: #9e9e9e99;
-}
-.ticket-booth-heading{
+  }
+  .ticket-booth-heading {
     text-overflow: ellipsis;
     font-size: 17px;
     color: #fff;
     margin-top: 11px;
-    font-family: 'Raleway';
+    font-family: "Raleway";
     font-weight: bold;
     width: 168px;
     margin-left: 6%;
     color: black;
-}
-.explore-content{
+  }
+  .explore-content {
     font-size: 15px;
     margin-top: 9px;
     line-height: 23px;
-    font-family: 'Raleway';
+    font-family: "Raleway";
     width: 60%;
     margin-left: 6%;
     color: gray;
-}
-.explore-button{
-  width: 127px !important;
+  }
+  .explore-button {
+    width: 127px !important;
     height: 37px;
     font-size: 21px;
     color: #ffff;
@@ -623,35 +609,26 @@ export default {
     margin-left: 57%;
     color: black;
     margin-top: 9px;
-}
-.fair-phone-container{
-
+  }
+  .fair-phone-container {
     margin-top: 0px;
     margin-left: 22px;
     height: 292px;
     width: 310px;
     border: 1px solid #9e9e9e99;
     border-radius: 4px !important;
-}
-.fair-explore-button {
+  }
+  .fair-explore-button {
     width: 110px;
     font-size: 18px;
     margin-top: 67px;
     border: none;
     background-color: transparent;
-}
-.concept-producton-margin[data-v-8d01ec12] {
+  }
+  .concept-producton-margin[data-v-8d01ec12] {
     align-items: center;
     padding: 35px 0px 0px;
     padding-top: 114px;
+  }
 }
-
-}
-
-
-
-
-   
-
-
- </style>
+</style>

@@ -57,11 +57,13 @@
                     />
                   </div>
                   <a href="#CP">
-                  <div class="concept">
-                    <p style="    margin: 0px auto;margin-left: 11px;">Concept Production</p>
-
-                    <div class="parem-1">Streamline yourworkflow automation..</div>
-                  </div>
+                    <!-- add parameter to route about page ---------------------------------------------->
+                    <router-link to="/team/conceptproduction">
+                      <div class="concept">
+                        <p style="    margin: 0px auto;margin-left: 11px;">Concept Production</p>
+                        <div class="parem-1">Streamline yourworkflow automation..</div>
+                      </div>
+                    </router-link>
                   </a>
                 </div>
               </div>
@@ -74,12 +76,12 @@
                       alt
                     />
                   </div>
-                  <div class="Developmenttttt">
-                    <p style="margin:0px auto; text-align: left;margin-left: 32px;">Development</p>
-                    <p
-                      class="parem"
-                    >Streamline yourworkflow automation.</p>
-                  </div>
+                  <router-link to="team/development">
+                    <div class="Developmenttttt">
+                      <p style="margin:0px auto; text-align: left;margin-left: 32px;">Development</p>
+                      <p class="parem">Streamline yourworkflow automation.</p>
+                    </div>
+                  </router-link>
                 </div>
               </div>
               <div class="flex-view flex-direction-row Integrations-box">
@@ -108,13 +110,15 @@
                     src="../assets/carban4.png"
                     alt
                   />
-                  <div class="Data">
-                    <p style="margin:0px auto; text-align: left;margin-left: 32px;">Data Management</p>
+                  <router-link to="team/datamanagment">
+                    <div class="Data">
+                      <p
+                        style="margin:0px auto; text-align: left;margin-left: 32px;"
+                      >Data Management</p>
 
-                    <div class="parem">
-                     Streamline yourworkflow automation..
+                      <div class="parem">Streamline yourworkflow automation..</div>
                     </div>
-                  </div>
+                  </router-link>
                 </div>
               </div>
             </div>
@@ -141,23 +145,38 @@
       </div>
     </div>
     <div class="flex-view flex-direction-col responsive-menu" v-if="mobileMenu">
-      <div>ABOUT US <i class=" forward-icon-one   fa fa-caret-right" aria-hidden="true"></i> </div>
-      <div>SERVICES <i class=" forward-icon-two   fa fa-caret-right" aria-hidden="true"  @click="forwaard()"></i></div>
-      <div>PRODUCTS <i class=" forward-icon-three  fa fa-caret-right" aria-hidden="true"></i></div>
-      <div>RESOURCE <i class=" forward-icon-four   fa fa-caret-right" aria-hidden="true"></i></div>
-      <div>CONTANCTS <i class=" forward-icon-five  fa fa-caret-right" aria-hidden="true"></i></div>
+      <div>
+        ABOUT US
+        <i class="forward-icon-one fa fa-caret-right" aria-hidden="true"></i>
+      </div>
+      <div>
+        SERVICES
+        <i
+          class="forward-icon-two fa fa-caret-right"
+          aria-hidden="true"
+          @click="forwaard()"
+        ></i>
+      </div>
+      <div>
+        PRODUCTS
+        <i class="forward-icon-three fa fa-caret-right" aria-hidden="true"></i>
+      </div>
+      <div>
+        RESOURCE
+        <i class="forward-icon-four fa fa-caret-right" aria-hidden="true"></i>
+      </div>
+      <div>
+        CONTANCTS
+        <i class="forward-icon-five fa fa-caret-right" aria-hidden="true"></i>
+      </div>
     </div>
     <div class="message-icon">
-      <i class=" chat-icon fa fa-commenting-o" aria-hidden="true"></i>
+      <i class="chat-icon fa fa-commenting-o" aria-hidden="true"></i>
     </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from "@/components/HelloWorld.vue";
-// import hamMenu from '@jeremyhamm/vue-slider'
-
 export default {
   name: "header",
   // name:hamMenu,

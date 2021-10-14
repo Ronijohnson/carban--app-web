@@ -292,6 +292,14 @@ position: relative;
   /* display: none; */
 
 }
+.second-icon :hover{
+  border: 2px solid #80008054 !important;
+  border-radius: 4px;
+  text-align: center;
+  width: 100%;
+  background-color: #8000801a;
+  height: 48px;
+}
 .icon-one{
   border: 1px solid black;
   height: 65px;
@@ -334,6 +342,23 @@ position: relative;
   border: none;
   margin-top: 15px;
   height: 0px;
+}
+.three:hover{
+  border: 2px solid #80008054;
+  border-radius: 4px;
+  text-align: center;
+  width: 100%;
+  background-color: #8000801a;
+  height: 48px;
+
+}
+.four:hover{
+  border: 2px solid #ffc10759;
+  border-radius: 4px;
+  text-align: center;
+  width: 100%;
+  background-color: #ffc10717;
+  height: 48px;
 }
 .Data-Management{
   border: 1px solid #0000ff2b;
@@ -408,6 +433,7 @@ position: relative;
   transition-delay: 0s;
   background-color: #F5F7FB;
 }
+
 .two{
   transition: width ease-out 0.6s;
   transition-property: width;
@@ -465,15 +491,14 @@ position: relative;
     transition-delay: 0s;
 
 }
-/* .first:hover .concept{
-  width: 199px;
-  opacity: 1;
-  transition: width ease-out 0.6s;
-    transition-property: width;
-    transition-duration: 0.6s;
-    transition-timing-function: ease-out;
-    transition-delay: 0s;
-} */
+.secoond-icon:hover{
+  border: 2px solid #80008054;
+  border-radius: 4px;
+  text-align: center;
+  width: 100%;
+  background-color: #8000801a;
+  height: 48px;
+}
 .first-icon:hover .concept{
   width: 199px;
   opacity: 1;
@@ -483,6 +508,15 @@ position: relative;
     transition-timing-function: ease-out;
     transition-delay: 0s;
 
+}
+.first-icon:hover{
+  border: 2px solid #adff2f5e;
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    background-color: #adff2f2b;
+    border-radius: 4px;
+    color: black;
 }
 .service-2{
   

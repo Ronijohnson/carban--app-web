@@ -1,4 +1,5 @@
 <template>
+    
 
 <div id="scroll">
   <div class="flex-view flex-direction-col justify-content-b">
@@ -94,6 +95,10 @@
 <script>
 export default {
   name: "development",
+   data() {
+      return {
+      };
+    },
 };
 </script>
  <style scoped>
