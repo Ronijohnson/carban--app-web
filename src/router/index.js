@@ -17,25 +17,24 @@ const routes = [
   },
   {
     path: "/team/:conceptproduction",
-    name: "About2",
+    name: "about",
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
   {
     path: "/team/:development",
-    name: "About3",
+    name: "about",
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
   {
     path: "/team/:datamanagment",
-    name: "About4",
+    name: "about",
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
-
-
-
+  
+  
 ];
 
 

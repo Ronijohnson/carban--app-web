@@ -110,7 +110,8 @@ export default {
   .circule{
     color: #B7BFDD !important;
     font-size: 14px !important;
-    margin-left: 40px !important;
+    padding-left: 50px !important;
+  
   }
   .hr{
   height: 1px;

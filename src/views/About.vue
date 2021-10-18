@@ -31,6 +31,12 @@ export default {
   props: {
     msg: String,
   },
+  data() {
+    return {
+      test: this.$route.params.conceptproduction,
+      
+    };
+  },
   
   components:
   { slider,
@@ -46,7 +52,7 @@ export default {
   },
       methods: {
            scrolled(){
-          document.getElementById("scrolled").scrollIntoView({behavior:'smooth'});;      
+          document.getElementById("scrolled").scrollIntoView({behavior:'smooth'});;
    },
          scrolldev(){
                document.getElementById("scrolldev").scrollIntoView({behavior:'smooth'});;
@@ -56,9 +62,17 @@ export default {
          },
    },
    mounted(){
-     this.scrolled();
-     this.scrolldev();
-     this.datamanage();
+   console.log(this.test)
+
+     if(this.test == 'development') {
+        this.scrolldev();
+      } else if(this.test == 'conceptproduction'){
+        this.scrolled();
+      }else if(this.test == 'datamanagment'){
+      this.datamanage();
+      }
+     
+     
    }
 };
 </script>

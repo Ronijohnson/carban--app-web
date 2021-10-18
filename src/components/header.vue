@@ -87,7 +87,7 @@
               <div class="flex-view flex-direction-row Integrations-box">
                 <div class="flex-view flex-direction-row three">
                   <div class="three">
-                    <router-link to="/teamIntegrations">
+                    <router-link to="/team/Integrations">
                       <img
                         style="    width: 40px;height: 44px;padding-bottom: 10px;"
                         src="../assets/carban3.png"
@@ -96,7 +96,7 @@
                     </router-link>
                   </div>
                   <div class="Integrationsssss">
-                    <router-link to="/teamIntegrations">
+                    <router-link to="/team/Integrations">
                       <p style="margin:0px auto; text-align: left;margin-left: 32px;">Integrations</p>
                       <p class="parem">Streamline yourworkflow automation..</p>
                     </router-link>
