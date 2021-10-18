@@ -8,7 +8,7 @@
     <datamanegement id="datamanage" />
     <marketing />
     <llinkdindemo />
-    <integration />
+    <integration id="integration" />
     <bottomside />
 
   </div>
@@ -33,7 +33,7 @@ export default {
   },
   data() {
     return {
-      test: this.$route.params.conceptproduction,
+      test: this.$route.params.nearpeer,
       
     };
   },
@@ -60,6 +60,9 @@ export default {
           datamanage(){
                document.getElementById("datamanage").scrollIntoView({behavior:'smooth'});;
          },
+           integration(){
+               document.getElementById("integration").scrollIntoView({behavior:'smooth'});;
+         }
    },
    mounted(){
    console.log(this.test)
@@ -71,7 +74,12 @@ export default {
       }else if(this.test == 'datamanagment'){
       this.datamanage();
       }
+      else if(this.test == 'integration'){
+      this.integration();
+      }
      
+
+
      
    }
 };

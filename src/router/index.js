@@ -16,23 +16,30 @@ const routes = [
     component: Home,
   },
   {
-    path: "/team/:conceptproduction",
+    path: "/team/:nearpeer",
     name: "about",
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
-  {
-    path: "/team/:development",
-    name: "about",
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue"),
-  },
-  {
-    path: "/team/:datamanagment",
-    name: "about",
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue"),
-  },
+  // {
+  //   path: "/team/:development",
+  //   name: "about",
+  //   component: () =>
+  //     import(/* webpackChunkName: "about" */ "../views/About.vue"),
+  // },
+  // {
+  //   path: "/team/:datamanagment",
+  //   name: "about",
+  //   component: () =>
+  //     import(/* webpackChunkName: "about" */ "../views/About.vue"),
+  // },
+  // {
+
+  //    path: "/team/integration",
+  //    component:() =>
+  //    import(/* webpackChunkName: "about" */ "../views/About.vue"),
+  // },
+
   
   
 ];
